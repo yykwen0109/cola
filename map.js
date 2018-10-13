@@ -1,5 +1,5 @@
 var map = new naver.maps.Map('map');
-var myaddress = $("#txt").html(); // 도로명 주소나 지번 주소만 가능 (건물명 불가!!!!)
+var myaddress = "불정로 6"; // 도로명 주소나 지번 주소만 가능 (건물명 불가!!!!)
 naver.maps.Service.geocode({
   address: myaddress
 }, function(status, response) {
