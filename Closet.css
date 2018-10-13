@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+}
+a{
+color: white;
+text-decoration:none;
+}
+body, html {
+  min-width: 1440px;
+  width: 100%;
+  height: 120%;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  font-size: 4em;
+  /* font-family: 'Playball', cursive; */
+  font-family: 'Charmonman', cursive;
+}
+
+.fLetter {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#profile {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 0.25em;
+  font-family: 'Noto Sans KR', sans-serif;
+  display: inline-block;
+}
+
+#profileUl {
+  list-style-type: none;
+}
+
+#profileUl li {
+  display: inline-block;
+  margin: 10px;
+  padding: 0;
+}
+
+li img {
+  height: 30px;
+
+}
+
+#mainBoard {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  padding: 0;
+}
+
+#menu {
+  position: absolute;
+  left: 0;
+  transition: 0.5s;
+  display: inline-block;
+  background-color: black;
+  border-bottom: 1px solid #466995;
+  width: 10%;
+  height: 100%;
+  z-index: 1;
+  /* z-index: 10; */
+  /* padding-bottom: 50%; */
+  /* ?float: left; */
+}
+
+#menuUl {
+  list-style-type: none;
+  /* margin: 5px auto; */
+  /* padding: 0 20px; */
+  /* text-align: center; */
+}
+
+#menuUl li {
+  /* display: inline-block; */
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 16px; */
+  /* font-weight: 300; */
+  /* text-transform: uppercase; */
+  /* margin: 0 10px; */
+  margin: 100px 0;
+}
+
+.content {
+  position: absolute;
+  right: 0.7%;
+  display: inline-block;
+  width: 89%;
+  height: 100%;
+}
+
+.content img {
+  display: block;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+}
+
+footer {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+footer span {
+  font-weight: bold;
+}
+
+#sOc {
+  font-size: 2em;
+  font-family: 'Charmonman', cursive;
+  display: inline-block;
+}
+
+.addr {
+  display: inline-block;
+  margin-left: 7%;
+}
+
+.freinds {
+  display: inline-block;
+  background: white;
+  border: 5px solid black;
+  width: 250px;
+  height: 300px;
+}
+
+.content ul {}
