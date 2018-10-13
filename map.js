@@ -1,4 +1,4 @@
-$("#ser").on('click', () => {
+
 var map = new naver.maps.Map('map');
       var myaddress = '불정로 6';// 도로명 주소나 지번 주소만 가능 (건물명 불가!!!!)
       naver.maps.Service.geocode({address: myaddress}, function(status, response) {
@@ -29,4 +29,4 @@ var map = new naver.maps.Map('map');
               content: '<h4> [네이버 개발자센터]</h4><a href="https://developers.naver.com" target="_blank"><img src="https://developers.naver.com/inc/devcenter/images/nd_img.png"></a>'
           });
       });
-}
+
